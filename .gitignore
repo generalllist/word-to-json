@@ -1,18 +1,17 @@
-# Виртуальное окружение
+# Virtual Environment
 venv/
 env/
 
-# Личные данные и временные файлы
+# Personal Data and Temporary Files
 *.docx
 *.json
 *.tsv
 mydata/
 old/
 
-# Системные файлы
+# System Files
 .DS_Store
 Thumbs.db
 
-# Настройки VS Code (не нужны другим)
+# VS Code Settings (not needed by others)
 .vscode/
-
