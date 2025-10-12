@@ -8,16 +8,6 @@ Especially useful for marking up texts (e.g., literary works) in tabular form.
 
 ---
 
-##  Feature# Word to JSON/TSV Converter
-
-This tool extracts data from tables in .docx documents and saves it in a structured format:
-→ **JSON** — for programmatic processing
-→ **TSV** — for safe viewing in spreadsheet programs (LibreOffice Calc, Excel)
-
-Especially useful for marking up texts (e.g., literary works) in tabular form.
-
----
-
 ## Features
 
 - Support for any number of .docx files in a project folder
@@ -122,34 +112,3 @@ This project is open and free. Use, modify, share!
 ---
 
 > Made with ❤️ for researchers, linguists, and anyone who works with text in tabular markup.
-
-- Support for any number of .docx files in a project folder
-- Preservation of the exact table structure:
-
-- 5 columns in a fixed order:
-
-`event`, `status`, `psychophysiological_state`, `circumstances`, `pattern_of_behavior`
-- Each **physical table row = one record**
-- Empty cells → empty rows (not skipped!)
-- Safe saving to **TSV** (not CSV!) to avoid distortions due to:
-- line breaks in cells
-- quotation marks, commas, dashes, and other special characters.
-
----
-
-##  Requirements
-
-- **Operating System**: Linux (tested on **Linux Mint 22.1**)
-- **Python 3.10+**
-- **LibreOffice** (for viewing TSVs)
-
-> 💡 On Ubuntu/Debian systems, you may need to install `python3-venv`.
-
----
-
-##  Installation and Runtime
-
-### 1. Install system dependencies
-```bash
-sudo apt update
-sudo apt install python3.12-venv
