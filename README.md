@@ -44,7 +44,7 @@ sudo apt install python3.12-venv
 
 ### 2. Clone the repository
 ```bash
-git clone https://github.com/your-name/word-to-json.git
+git clone https://github.com/generalllist/word-to-json.git
 cd word-to-json
 ```
 
