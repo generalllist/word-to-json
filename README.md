@@ -114,6 +114,7 @@ word-to-json/
 ├── json_to_tsv.py    # JSON → TSV
 ├── requirements.txt  # Python dependencies
 ├── README.md         # This document
+├── LICENSE           # MIT License text
 └── .gitignore        # Excludes venv, .docx, and temporary files
 ```
 
