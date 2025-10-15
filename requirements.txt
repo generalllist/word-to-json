@@ -1,3 +1,8 @@
+# XML parsing (required by python-docx)
 lxml==6.0.2
+
+# DOCX handling
 python-docx==1.2.0
+
+# Backport of typing features for older Python versions
 typing_extensions==4.15.0
